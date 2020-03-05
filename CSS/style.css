@@ -24,24 +24,10 @@ li {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: 120vh;
     animation: animate 15s ease-in-out infinite ;
 }
-/* @keyframes animate{
-0%,100%{
-    background-image:url(../images/coverpage.jpg);
-}
-25%{
-    background-image:url(../images/hostel3.jpeg);
-}
-50%{
-    background-image:url(../images/hostel4.jpeg);
-}
-75%{
-    background-image:url(../images/image5.jpeg);
-}
-}
- */
+
 .overlay {
     background-color: rgba(30, 31, 36, 0.7);
     height: 100%;
