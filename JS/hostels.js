@@ -31,6 +31,8 @@ else
 }
 }
 
+
+//hostel selection
 $(document).ready(function(){
     $("#topoli").click(function(){
         $(".topoli").toggle();
