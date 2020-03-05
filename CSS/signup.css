@@ -95,6 +95,8 @@ span.psw {
 }
 #sign-up{
     display: none;
+    margin-top:5%;
+    margin-bottom: 2%
 }
 .nav-wrapper{
     background-color:khaki;
@@ -114,4 +116,13 @@ span.psw {
   .nav-wrapper .right li:hover{
    background-color: gray;
    opacity: 0.8;
+  }
+
+  #post{
+    padding: 5px;
+  }
+
+  .login{
+    margin-top : 2%;
+    margin-bottom: 2%;
   }

@@ -72,13 +72,13 @@ li {
 /* footer on landing page */
 
 .contacts {
-    padding: 100px;
+    padding: 20px;
     text-align: center;
 }
 footer{
     text-align: center;
     margin-right: 10%;
-    margin-left: 300px;
+    margin-left: 10%;
     align-items: center;
     align-self: center;
 }
