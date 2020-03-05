@@ -60,4 +60,4 @@
 
     This GROUP PROJECT is licensed under the MIT license. For more information, click LICENSE below:
 
-[LICENSE](../LICENSE)cler
+[LICENSE](../LICENSE)
