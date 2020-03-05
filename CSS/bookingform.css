@@ -1,0 +1,53 @@
+.clicking, .bookn, .select{
+    text-align: center;
+  }
+  .booking{
+    box-sizing: border-box;
+    box-decoration-break: clone;
+    box-shadow: aqua;
+    padding-top: 20px;
+  }
+  .booking{
+    border-radius: 4px;
+    width:50%;
+    border: 3px solid orangered;
+    margin-left:350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  input[type=text], select{
+    width:80%;
+    padding:10px 20px;
+    margin: 8px 0;
+    border-radius:5px;
+    border: 1px solid gray;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+  }
+  input[type=number], select{
+    width:80%;
+    padding:10px 20px;
+    margin: 8px 0;
+    border-radius:5px;
+    border: 1px solid gray;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+  }
+  input[type=email], select{
+    width:80%;
+    padding:10px 20px;
+    margin: 8px 0;
+    border-radius:5px;
+    color:black;
+    border: 1px solid gray;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+  }
+  
+  #show{
+      list-style: none;
+  }
+  .clicking{
+      margin-bottom: 20px;
+  }
+  

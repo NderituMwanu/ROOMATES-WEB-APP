@@ -112,53 +112,53 @@ Roomate.prototype.getReligion = function(){
 
 function mine(){
    
-        var genders = "";
-        var hostels = "";
-        var religions ="";
-        var personality = "";
+
+   
+       
         var mail = "myroomate@gmail.com";
          
-         genders = document.getElementById("selectorgender").value ;
-         hostels = document.getElementById("selectorhostel").value ;
-         religions = document.getElementById("selectorreligion").value ;
-         personality = document.getElementById("selectorpersonality").value
+         var genders = document.getElementById("selectorgender").value ;
+         var hostels = document.getElementById("selectorhostel").value ;
+         var religions = document.getElementById("selectorreligion").value ;
+         var personality = document.getElementById("selectorpersonality").value
   
 
     // male makadara hostel conditions
-
      
-     if (genders == "male" && hostels == "madaraka" && religions == "christian" &&  personality == "extroverted"){
-         $("#show").append(" <li> Reccomended Roomate;" + mike.getName() + "<br>" +"Contact At; " + mail +"</li>")
+      
+     
+     if (genders === "male" && hostels === "madaraka" && religions === "christian" &&  personality ==="extroverted"){
+         $("#show").html(" <li> Reccomended Roomate;" + mike.getName() + "<br>" +"Contact At; " + mail +"</li>")
          $("#show").css('background-color','green')
     }
     else if( genders === "male" && hostels === "madaraka" && religions === "christian" &&  personality === "introverted"){
-        $("#show").append(" <li> you can stay with " + john.getName() +  "<br>" +"Contact At; " + mail +  "</li>")
+        $("#show").html(" <li> you can stay with " + john.getName() +  "<br>" +"Contact At; " + mail +  "</li>")
         $("#show").css('background-color','green')
     }
     else if( genders === "male" && hostels === "madaraka" && religions === "muslim" &&  personality === "extroverted"){
-        $("#show").append(" <li> you can stay with " + abdul.getName() +  "<br>" +"Contact At; " + mail + "</li>")
+        $("#show").html(" <li> you can stay with " + abdul.getName() +  "<br>" +"Contact At; " + mail + "</li>")
         $("#show").css('background-color','green')
     }
     else if( genders === "male" && hostels === "madaraka" && religions === "muslim" &&  personality === "introverted"){
-        $("#show").append(" <li> you can stay with " + hassan.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+        $("#show").html(" <li> you can stay with " + hassan.getName() +  "<br>" +"Contact At; " + mail +"</li>")
         $("#show").css('background-color','green')
     }
     else if( genders === "male" && hostels === "madaraka" && religions === "hindu" &&  personality === "extroverted"){
-        $("#show").append(" <li> you can stay with " +akshay.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+        $("#show").html(" <li> you can stay with " +akshay.getName() +  "<br>" +"Contact At; " + mail +"</li>")
         $("#show").css('background-color','green')
     }
     
     else if( genders === "male" && hostels === "madaraka" && religions === "hindu" &&  personality === "intoverted"){
-        $("#show").append(" <li> you can stay with " +salim.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+        $("#show").html(" <li> you can stay with " +salim.getName() +  "<br>" +"Contact At; " + mail +"</li>")
         $("#show").css('background-color','green')
     }
     else if( genders === "male" && hostels === "madaraka" && religions === "others" &&  personality === "extroverted"){
-        $("#show").append(" <li> you can stay with " +reuben.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+        $("#show").html(" <li> you can stay with " +reuben.getName() +  "<br>" +"Contact At; " + mail +"</li>")
         $("#show").css('background-color','green')
        
     }
     else if( genders === "male" && hostels === "madaraka" && religions === "others" &&  personality === "introverted"){
-        $("#show").append(" <li> you can stay with " +ben.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+        $("#show").html(" <li> you can stay with " +ben.getName() +  "<br>" +"Contact At; " + mail +"</li>")
         $("#show").css('background-color','green')
         
     }
@@ -167,38 +167,38 @@ function mine(){
     // female makadara conditions
 
 else if( genders === "female" && hostels === "madaraka" && religions === "christian" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +joan.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +Joan.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "madaraka" && religions === "christian" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +ann.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +ann.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "madaraka" && religions === "muslim" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +halima.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +halima.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "madaraka" && religions === "muslim" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +mwana.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +mwana.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "madaraka" && religions === "hindu" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +priya.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +priya.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 
 else if( genders === "female" && hostels === "madaraka" && religions === "hindu" &&  personality === "intoverted"){
-    $("#show").append(" <li> you can stay with " +devika.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +devika.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 
 else if( genders === "female" && hostels === "madaraka" && religions === "others" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +jane.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +jane.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
     
 }
 else if( genders === "female" && hostels === "madaraka" && religions === "others" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +cat.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +cat.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
     
 }
@@ -206,83 +206,83 @@ else if( genders === "female" && hostels === "madaraka" && religions === "others
 //   female topoli conditions 
    
 else if( genders === "female" && hostels === "topoli" && religions === "christian" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " + vero.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + vero.getName() +  "<br>" +"Contact At; " + mail +"</li>")
         $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "topoli" && religions === "christian" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +liz.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +liz.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "topoli" && religions === "muslim" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +abida.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +abida.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
     }
 else if( genders === "female" && hostels === "topoli" && religions === "muslim" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +adara.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +adara.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "topoli" && religions === "hindu" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +riya.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +riya.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 
 else if( genders === "female" && hostels === "topoli" && religions === "hindu" &&  personality === "intoverted"){
-    $("#show").append(" <li> you can stay with " +anika.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +anika.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 
 else if( genders === "female" && hostels === "topoli" && religions === "others" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +adara.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +adara.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
     
 }
 else if( genders === "female" && hostels === "topoli" && religions === "others" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +abida.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +abida.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
    
 // female metropolitant
  
 else if( genders === "female" && hostels === "metropolitan" && religions === "christian" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +abi.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +abi.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "metropolitan" && religions === "christian" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +barb.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +barb.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
    
 }
 else if( genders === "female" && hostels === "metropolitan" && religions === "muslim" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +asma.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +asma.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "metropolitan" && religions === "muslim" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +akan.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +akan.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "metropolitan" && religions === "hindu" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +chaaya.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +chaaya.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "metropolitan" && religions === "hindu" &&  personality === "intoverted"){
-    $("#show").append(" <li> you can stay with " +binita.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +binita.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "metropolitan" && religions === "others" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +daisy.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +daisy.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "metropolitan" && religions === "others" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +ruth.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +ruth.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if (genders === "female" && hostels === "highway" ){
-    $("#show").append(" <li> please pick another hostel,highway is a male hostel </li>")
+    $("#show").html(" <li> please pick another hostel,highway is a male hostel </li>")
     $("#show").css('background-color','green')
     
 }
 else if (genders === "female" && hostels === "ngaram" ){
-    $("#show").append(" <li> please pick another hostel,Ngara Men is a male hostel </li>")
+    $("#show").html(" <li> please pick another hostel,Ngara Men is a male hostel </li>")
     $("#show").css('background-color','green')
     
 }
@@ -291,24 +291,24 @@ else if (genders === "female" && hostels === "ngaram" ){
 //   males in highway 
    
 if (genders == "male" && hostels == "highway" && religions == "christian" &&  personality == "extroverted"){
-    $("#show").append(" <li> you can stay with " +oliver.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +oliver.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
     
 }
 else if( genders === "male" && hostels === "highway" && religions === "christian" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +george.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +george.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "highway" && religions === "muslim" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +adal.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +adal.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "highway" && religions === "muslim" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +asad.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +asad.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "highway" && religions === "hindu" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +arush.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +arush.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "highway" && religions === "hindu" &&  personality === "intoverted"){
@@ -317,58 +317,58 @@ else if( genders === "male" && hostels === "highway" && religions === "hindu" &&
 }
 
 else if( genders === "male" && hostels === "highway" && religions === "others" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +harry.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +harry.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
    
 }
 else if( genders === "male" && hostels === "highway" && religions === "others" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +noah.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +noah.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if (genders === "male" && hostels === "metropolitan" ){
-    $("#show").append(" <li>please pick another hostel,Metropolitan is a female hostel </li>")
+    $("#show").html(" <li>please pick another hostel,Metropolitan is a female hostel </li>")
     $("#show").css('background-color','green')
 }
 else if (genders === "male" && hostels === "tropoli" ){
-    $("#show").append(" <li>please pick another hostel,Tripoli is a female hostel </li>")
+    $("#show").html(" <li>please pick another hostel,Tripoli is a female hostel </li>")
     $("#show").css('background-color','green')
 }
 
 //    men in ngaramen
    
 else if( genders === "male" && hostels === "ngaram" && religions === "christian" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +aron.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +aron.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "ngaram" && religions === "christian" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +abel.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +abel.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "ngaram" && religions === "muslim" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " + ayan.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + ayan.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "ngaram" && religions === "muslim" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +aqib.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +aqib.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "ngaram" && religions === "hindu" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " + vihan.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + vihan.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 
 else if( genders === "male" && hostels === "ngaram" && religions === "hindu" &&  personality === "intoverted"){
-    $("#show").append(" <li> you can stay with " + sai.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + sai.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 
 else if( genders === "male" && hostels === "ngaram" && religions === "others" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " + jacob.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + jacob.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
     
 }
 else if( genders === "male" && hostels === "ngaram" && religions === "others" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " + tom.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + tom.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }  
    
@@ -376,78 +376,83 @@ else if( genders === "male" && hostels === "ngaram" && religions === "others" &&
 // men in qwetu  
    
 else if( genders === "male" && hostels === "qwetu" && religions === "christian" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " + oscar.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + oscar.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "qwetu" && religions === "christian" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +william.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +william.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "qwetu" && religions === "muslim" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " + abdi.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + abdi.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "qwetu" && religions === "muslim" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " + hazil.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + hazil.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "qwetu" && religions === "hindu" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " + dinesh.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + dinesh.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "qwetu" && religions === "hindu" &&  personality === "intoverted"){
-    $("#show").append(" <li> you can stay with " + harsh.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + harsh.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "qwetu" && religions === "others" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " + james.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + james.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "male" && hostels === "qwetu" && religions === "others" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " + leo.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + leo.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 } 
    
 // ladies in qwetu hostel
    
 else if( genders === "female" && hostels === "qwetu" && religions === "christian" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " + maggy.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + maggy.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
-    alert("you can stay with "+ maggy.getName())
+    
 }
 else if( genders === "female" && hostels === "qwetu" && religions === "christian" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " + neema.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + neema.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "qwetu" && religions === "muslim" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " + rabab.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + rabab.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "qwetu" && religions === "muslim" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " +nima.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +nima.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "qwetu" && religions === "hindu" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " + anya.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + anya.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
 }
 else if( genders === "female" && hostels === "qwetu" && religions === "hindu" &&  personality === "intoverted"){
-    $("#show").append(" <li> you can stay with " + amara.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + amara.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
     ls
 }
 else if( genders === "female" && hostels === "qwetu" && religions === "others" &&  personality === "extroverted"){
-    $("#show").append(" <li> you can stay with " +noah.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " +noah.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
     
 }
 else if( genders === "female" && hostels === "qwetu" && religions === "others" &&  personality === "introverted"){
-    $("#show").append(" <li> you can stay with " + grace.getName() +  "<br>" +"Contact At; " + mail +"</li>")
+    $("#show").html(" <li> you can stay with " + grace.getName() +  "<br>" +"Contact At; " + mail +"</li>")
     $("#show").css('background-color','green')
    
 }
-
+else{
+    $("#show").html(" No match found since "+ hostels +" is not a " + genders + " hostel");
+    $("#show").css('background-color','red');
 }
+event.preventDefault();
+}
+
 
 
 
