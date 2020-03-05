@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Room Mate App </title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+   
+  
+</head>
+<body>
+
+
+ <div class="booking">
+    <div class="bookn">
+      <h3 style="padding-top: 10px;">  BOOK HOSTEL NOW!!</h3>
+    </div>
+    <div style="text-align: center;"> Contact Details </div> <br>
+    <form>
+      <div class="container">
+        <div class="row">
+          <div class=" col-6" style="text-align: center;">
+            <div class="listing">
+              <input type="text";" placeholder="First Name" name="name" required>
+            </div><br>
+          </div>
+          <div class="col-6"style="text-align: center;  " >
+            <div class="listing">
+              <input type="text" placeholder="Last Name" name="contact" required><br><br>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class=" col-6" style="text-align: center;">
+            <div class="listing">
+              <input type="email" placeholder="Email" name="name" required>
+            </div>
+          </div><br>
+          <div class="col-6" style="text-align: center;" >
+            <div class="listing">
+              <input type="number" placeholder="Mobile" name="contact" required><br><br>
+            </div>
+          </div>
+        </div>
+         <div id = "confirm">
+          <ul id = "show">
+
+          </ul>
+         </div>
+
+        <div class="select">
+        <div class="listing"><br>
+          <label for="religion"><b>Choose your Religion:</b></label>
+          <br>
+          <select id="selectorreligion">
+            <option value="christian">Christian</option>
+            <option value="muslim">Muslim</option>
+            <option value="hindu">Hindu</option>
+            <option value="others">Others</option>
+          </select>
+          <br><br>
+        </div>
+        <div class="listing">
+            <label for="religion"><b>Choose your Gender:</b></label>
+            <select name="GENDER"  id="selectorgender"><br><br> 
+                <option value="female" id ="female"> Female</option>
+                <option value="male" id = "male"> Male</option>
+
+          </select>
+        </div> <br>
+
+        <div class="listing">
+            <label for="religion"><b>Choose your Personality:</b></label>
+            <select   id="selectorpersonality"><br><br> 
+                <option value="extroverted" id ="extroverted"> Extrovert </option>
+                <option value="introverted" id = "introverted"> Introvert </option>
+
+          </select>
+        </div> <br>
+        <div class="listing">
+          <label for="hostels"><b>Choose and Hostel</b></label>
+          <select id="selectorhostel">
+            <option value="madaraka">Madaraka</option>
+            <option value="qwetu">Qwetu</option>
+            <option value="highway">Highway</option>
+            <option value="ngaram">Ngara men</option>
+            <option value="topoli">Topoli</option>
+            <option value="metropolitant">Metropolitant</option>
+          </select>
+        </div>
+        <div class="clicking">
+        <hr>
+        <p>By clicking BOOK you agree to our <a href="#">Terms & Privacy</a>.</p>
+        <button type="submit" class="btn btn-success"  onclick="mine()">Book</button>
+        </div>
+      </div>
+  </div>
+</form>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="JS/bookscript.js"></script>
+
+</body>
+
+</html>
