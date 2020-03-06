@@ -1,6 +1,6 @@
 .nav-wrapper{
     background-color:khaki;
-    font-size: x-large;
+    font-size: larger;
   }
   .nav-wrapper .right{
     text-align: right;
@@ -13,8 +13,13 @@
     text-decoration: none;
   }
   .nav-wrapper .right li:hover{
-   background-color: gray;
+   background-color:yellow;
    opacity: 0.8;
+  }
+  .nav-wrapper .right li a{
+    text-decoration: none;
+    font-size: larger;
+    color: orange;
   }
 .img_wrap img{
     height: 350px;
@@ -69,20 +74,20 @@ body{
 
 }
 h2{
-    color: skyblue;
+    color: orange;
 }
 .social{
     text-align: center;
     margin-top: 2%;
 }
-footer{
-   text-align: center;
-   margin-left: 10%;
-   margin-right: 10%;
-   margin-top: 2%;
-   margin-bottom:5px;
-   font-weight: bolder;
-}
+
+    footer{
+        text-align: center;
+        background-color: khaki;
+        margin-bottom: 0;
+        padding: 10px;
+    }
+    
 .minislide{
     margin-right: auto;
     margin-left: auto;
@@ -123,5 +128,14 @@ footer{
     .minislide img:nth-child(1){animation-delay:25s;}
     }
 #heading{
-    text-align: left;
+    float: left;
+}
+
+#heading h2{
+    font-size: larger;
+}
+
+.head{
+    text-align: center;
+    text-transform: uppercase;
 }

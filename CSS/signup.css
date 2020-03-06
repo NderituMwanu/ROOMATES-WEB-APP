@@ -1,6 +1,6 @@
 .nav-wrapper{
   background-color:khaki;
-  font-size: x-large;
+  font-size: larger;
 }
 .nav-wrapper .right{
   text-align: right;
@@ -13,9 +13,15 @@
   text-decoration: none;
 }
 .nav-wrapper .right li:hover{
- background-color: gray;
+ background-color:yellow;
  opacity: 0.8;
 }
+.nav-wrapper .right li a{
+  text-decoration: none;
+  font-size: larger;
+  color: orange;
+}
+
 .item{
     padding: 5px;
 }
@@ -99,13 +105,16 @@ span.psw {
     margin-bottom: 2%
 }
 .nav-wrapper{
-    background-color:khaki;
-    font-size: x-large;
+    text-decoration: none;
+    font-size: 15px;
+
+    
   }
   .nav-wrapper .right{
     text-align: right;
     display:block;
     color:white;
+    
   }
   .nav-wrapper 
   .nav-wrapper .right li{
@@ -114,7 +123,7 @@ span.psw {
     text-decoration: none;
   }
   .nav-wrapper .right li:hover{
-   background-color: gray;
+   background-color:yellow;
    opacity: 0.8;
   }
 
@@ -126,3 +135,15 @@ span.psw {
     margin-top : 2%;
     margin-bottom: 2%;
   }
+
+  footer{
+    text-align: center;
+    background-color: khaki;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+#heading h2{
+  font-size: larger;
+
+}

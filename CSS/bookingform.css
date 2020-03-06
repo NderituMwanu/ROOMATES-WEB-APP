@@ -1,3 +1,27 @@
+.nav-wrapper{
+    background-color:khaki;
+    font-size: larger;
+  }
+  .nav-wrapper .right{
+    text-align: right;
+    display:block;
+    color:white;
+  }
+  .nav-wrapper .right li{
+    display: inline-block;
+    padding:20px;
+    text-decoration: none;
+  }
+  .nav-wrapper .right li:hover{
+   background-color:yellow;
+   opacity: 0.8;
+  }
+  .nav-wrapper .right li a{
+    text-decoration: none;
+    font-size: larger;
+    color: orange;
+  }
+
 .clicking, .bookn, .select{
     text-align: center;
   }
@@ -57,4 +81,23 @@ select{
 
     height: 35px;
     
+}
+
+footer{
+    text-align: center;
+    background-color: khaki;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+#heading h2{
+    font-size: larger;
+}
+
+label{
+    color:blue;
+}
+
+body{
+    background-image: url("../images/social_icons/sea-shore-1920x1080.jpg");
 }
