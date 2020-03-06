@@ -19,7 +19,7 @@
 ## Getting Started;
     1. Get access to this repository through typing in the following command in your terminal:
 
-    git clone https://github.com/NderituMwanu/ROOMATES-WEB-APP/tree/development.
+    git clone [My Roomate](https://github.com/NderituMwanu/ROOMATES-WEB-APP/tree/development)
 
     2. Make sure you have cloned thi repository in a preferred location on your local machine.
 ## Prerequisites;
@@ -34,13 +34,14 @@
     2.CSS (Cascading Style Sheets)
     3.Javascript
     4.JQuery.
-
+## GitHub Link
+    To open My Roomate [Click Here](https://nderitumwanu.github.io/ROOMATES-WEB-APP/)
 
 ## INSTALLATION;
 
     1. Open your terminal and type in the folowing command:
 
-    git clone  https://github.com/NderituMwanu/ROOMATES-WEB-APP/tree/development
+    git clone [My Roomate](https://github.com/NderituMwanu/ROOMATES-WEB-APP/tree/development)
 
     2. Open your preferred browser to load the webpage.
 
@@ -61,3 +62,4 @@
     This GROUP PROJECT is licensed under the MIT license. For more information, click LICENSE below:
 
 [LICENSE](../LICENSE)
+Copyright(©)2020
